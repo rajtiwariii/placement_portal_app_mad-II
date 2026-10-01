@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Portal Application (PPA)</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vue 3 & Vue Router CDN -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4/dist/vue-router.global.js"></script>
+</head>
+<body class="bg-light">
+    <div id="app">
+        <navbar-component></navbar-component>
+        <div class="container my-4">
+            <router-view></router-view>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Vue App & Router Setup -->
+    <script src="/components/Navbar.js"></script>
+    <script src="/components/Login.js"></script>
+    <script src="/components/RegisterStudent.js"></script>
+    <script src="/components/RegisterCompany.js"></script>
+    <script src="/components/AdminDashboard.js"></script>
+    <script src="/components/CompanyDashboard.js"></script>
+    <script src="/components/StudentDashboard.js"></script>
+    <script src="/router.js"></script>
+    <script src="/app.js"></script>
+</body>
+</html>

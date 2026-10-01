@@ -1,0 +1,24 @@
+# Web Framework & Core Extensions
+Flask==3.0.3
+Flask-SQLAlchemy==3.1.1
+Flask-Security-Too==5.4.3
+Flask-Cors==4.0.1
+Werkzeug==3.0.3
+Jinja2==3.1.4
+
+# Database & Migration
+SQLAlchemy==2.0.30
+
+# Async Background Tasks & Queue
+Celery==5.3.6
+redis==5.0.4
+
+# Email & Security
+email-validator==2.1.1
+cryptography==42.0.7
+
+# Production Server (For Render/Deployment)
+gunicorn==22.0.0
+
+# Environment Management
+python-dotenv==1.0.1
